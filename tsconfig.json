@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"declaration": true,
+		"declarationDir": "types",
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"noImplicitAny": true,
+		"diagnostics": true,
+		"noImplicitThis": true,
+		"noEmitOnError": true,
+		"lib": ["es6", "es2020"],
+		"target": "es2020"
+	},
+	"module": "ES6",
+	"include": ["index.js", "src/*.js"],
+	"exclude": ["node_modules"]
+}
